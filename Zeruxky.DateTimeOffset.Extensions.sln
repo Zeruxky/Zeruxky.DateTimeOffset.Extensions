@@ -13,6 +13,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{3F53A8AF-4FF1-4936-807B-2FD5E280FE92}"
 	ProjectSection(SolutionItems) = preProject
 		stylecop.json = stylecop.json
+		CHANGELOG.md = CHANGELOG.md
+		LICENSE = LICENSE
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
 	EndProjectSection
 EndProject
 Global
