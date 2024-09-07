@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeruxky.DateTimeOffset.Extensions", "Zeruxky.DateTimeOffset.Extensions\Zeruxky.DateTimeOffset.Extensions.csproj", "{A42DFD9C-B2EA-4800-B779-B4CDCB469780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeOffset.Extensions.Specs", "DateTimeOffset.Extensions.Specs\DateTimeOffset.Extensions.Specs.csproj", "{37C7AECA-BEFD-4B4E-AEE4-BD819665B9CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{4397A32B-F205-4D5B-A958-0327E3E190A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A42DFD9C-B2EA-4800-B779-B4CDCB469780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42DFD9C-B2EA-4800-B779-B4CDCB469780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42DFD9C-B2EA-4800-B779-B4CDCB469780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42DFD9C-B2EA-4800-B779-B4CDCB469780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C7AECA-BEFD-4B4E-AEE4-BD819665B9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C7AECA-BEFD-4B4E-AEE4-BD819665B9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C7AECA-BEFD-4B4E-AEE4-BD819665B9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C7AECA-BEFD-4B4E-AEE4-BD819665B9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
