@@ -1,10 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeruxky.DateTimeOffset.Extensions", "Zeruxky.DateTimeOffset.Extensions\Zeruxky.DateTimeOffset.Extensions.csproj", "{A42DFD9C-B2EA-4800-B779-B4CDCB469780}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeruxky.DateTimeOffset.Extensions", "src\Zeruxky.DateTimeOffset.Extensions\Zeruxky.DateTimeOffset.Extensions.csproj", "{A42DFD9C-B2EA-4800-B779-B4CDCB469780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeOffset.Extensions.Specs", "DateTimeOffset.Extensions.Specs\DateTimeOffset.Extensions.Specs.csproj", "{37C7AECA-BEFD-4B4E-AEE4-BD819665B9CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeruxky.DateTimeOffset.Extensions.Specs", "test\Zeruxky.DateTimeOffset.Extensions.Specs\Zeruxky.DateTimeOffset.Extensions.Specs.csproj", "{37C7AECA-BEFD-4B4E-AEE4-BD819665B9CA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{4397A32B-F205-4D5B-A958-0327E3E190A1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{911A27E2-CD08-4BB3-B45F-331755FD7CD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{509AF474-ECC2-4714-836D-2CEAFFC9318B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{D24510FD-8CEE-4D9A-99D1-4A6A1554616E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{3F53A8AF-4FF1-4936-807B-2FD5E280FE92}"
+	ProjectSection(SolutionItems) = preProject
+		stylecop.json = stylecop.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,5 +29,9 @@ Global
 		{37C7AECA-BEFD-4B4E-AEE4-BD819665B9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37C7AECA-BEFD-4B4E-AEE4-BD819665B9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37C7AECA-BEFD-4B4E-AEE4-BD819665B9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A42DFD9C-B2EA-4800-B779-B4CDCB469780} = {911A27E2-CD08-4BB3-B45F-331755FD7CD4}
+		{37C7AECA-BEFD-4B4E-AEE4-BD819665B9CA} = {509AF474-ECC2-4714-836D-2CEAFFC9318B}
 	EndGlobalSection
 EndGlobal
